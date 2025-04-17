@@ -2,33 +2,33 @@
 
 const ongs = [
   {
-    nome: 'Instituto Terra',
-    categoria: 'meio-ambiente',
-    site: 'https://institutoterra.org',
-    localizacao: 'Minas Gerais, Brasil'
-  },
-  {
-    nome: 'Cruz Vermelha Brasileira',
-    categoria: 'direitos-humanos',
-    site: 'https://cruzvermelha.org.br',
-    localizacao: 'Nacional'
-  },
-  {
-    nome: 'Ampara Animal',
-    categoria: 'protecao-animal',
-    site: 'https://amparanimal.org.br',
-    localizacao: 'São Paulo, Brasil'
-  },
-  {
-    nome: 'Ação da Cidadania',
-    categoria: 'combate-a-fome',
-    site: 'https://acaodacidadania.org.br',
-    localizacao: 'Rio de Janeiro, Brasil'
-  },
-  {
-    nome: 'Fundação Lemann',
+    nome: 'Programadores Do Amanhã',
     categoria: 'educacao',
-    site: 'https://fundacaolemann.org.br',
+    site: 'https://programadoresdoamanha.org.br/pt',
+    localizacao: 'Belo Horizonte, Brasil'
+  },
+  {
+    nome: 'Fraternidade – Missões Humanitárias Internacionais (FMHI)',
+    categoria: 'direitos-humanos',
+    site: 'https://www.missoeshumanitarias.org/quem-somos/',
+    localizacao: 'Luanda,Angola'
+  },
+  {
+    nome: 'Fundação lwini',
+    categoria: 'direitos humanos',
+    site: 'https://amparanimal.org.br',
+    localizacao: 'Luanda, Angola'
+  },
+  {
+    nome: 'Fundação Bornito de Sousa',
+    categoria: 'combate-a-fome',
+    site: 'https://www.fbs.ao/',
+    localizacao: 'Luanda, Angola'
+  },
+  {
+    nome: 'https://pulsemais.org.br/',
+    categoria: 'educacao',
+    site: 'https://pulsemais.org.br/',
     localizacao: 'São Paulo, Brasil'
   }
 ];
