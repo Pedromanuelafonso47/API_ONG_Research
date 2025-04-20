@@ -1,5 +1,4 @@
 // models/ongModel.js
-
 const ongs = [
   {
     nome: 'Programadores Do Amanhã',
@@ -11,7 +10,7 @@ const ongs = [
     nome: 'Fraternidade – Missões Humanitárias Internacionais (FMHI)',
     categoria: 'direitos-humanos',
     site: 'https://www.missoeshumanitarias.org/quem-somos/',
-    localizacao: 'Luanda,Angola'
+    localizacao: 'Luanda, Angola'
   },
   {
     nome: 'Fundação lwini',
@@ -26,12 +25,13 @@ const ongs = [
     localizacao: 'Luanda, Angola'
   },
   {
-    nome: 'https://pulsemais.org.br/',
+    nome: 'Pulse Mais',
     categoria: 'educacao',
     site: 'https://pulsemais.org.br/',
     localizacao: 'São Paulo, Brasil'
   }
 ];
+
 
 exports.getOngs = () => ongs;
 
