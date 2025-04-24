@@ -1,4 +1,4 @@
-// models/ongModel.js
+// Lista de ONGs simulando um "banco de dados"
 const ongs = [
   {
     nome: 'Programadores Do Amanhã',
@@ -32,11 +32,14 @@ const ongs = [
   }
 ];
 
-
+// Retorna todas as ONGs
 exports.getOngs = () => ongs;
+
+// Retorna ONGs filtradas pela categoria
 
 exports.getOngsByCategory = (categoria) =>
   ongs.filter(ong => ong.categoria === categoria.toLowerCase());
+// Retorna uma ONG aleatória
 
 exports.getRandomOng = () => {
   const index = Math.floor(Math.random() * ongs.length);
